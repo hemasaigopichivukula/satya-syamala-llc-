@@ -29,7 +29,7 @@ export const company = {
     country: "US",
     formatted: "7850 Stalmer St D22, San Diego, CA 92111",
   },
-  founder: { name: "Srikanth Kuppa", title: "Founder & Managing Director" },
+  leadership: { label: "Company Leadership", title: "Founder & Managing Director" },
   website: process.env.NEXT_PUBLIC_SITE_URL || "https://satyasyamalallc.com",
   socialLinks: [] as { label: string; href: string }[],
 };
