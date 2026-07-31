@@ -3,7 +3,7 @@ import Script from "next/script";
 import "./globals.css";
 import { company } from "@/data/company";
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://example.com";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://satyasyamalallc.com";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
